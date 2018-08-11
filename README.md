@@ -1,4 +1,4 @@
-Solutions Implemented By Prof USHA CS and Prof Sachin DN
+Solutions Implemented By Prof USHA CS and Prof SACHIN DN
 
 VTU-WebTechnologyLabPrograms-15CSL77
 1.	Write a JavaScript to design a simple calculator to perform the following operations: sum, product, difference and quotient.
