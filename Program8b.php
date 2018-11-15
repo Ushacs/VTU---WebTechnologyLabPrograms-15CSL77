@@ -6,21 +6,16 @@ $trans = array(
 );
 echo "<h2> Matrix </h2>";
 for ($row = 0; $row < 3; $row++) {
-  echo "<p><b>Row number $row</b></p>";
- 
+	echo "<br>";
   for ($col = 0; $col < 3; $col++) {
-    echo "<p>".$trans[$row][$col]."</p>";
+    echo " ".$trans[$row][$col];
   }
 }
-array_unshift($trans, null);
-$trans = call_user_func_array('array_map', $trans);
-//var_dump($trans);
 echo "<h2> Transpose of Matrix </h2>";
 for ($row = 0; $row < 3; $row++) {
-  echo "<p><b>Row number $row</b></p>";
-  
+echo "<br>";  
   for ($col = 0; $col < 3; $col++) {
-    echo "<p>".$trans[$row][$col]."</p>";
+    echo " ".$trans[$col][$row];
   }
   
 }
